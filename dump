@@ -1,0 +1,32 @@
+    //Phrase *ph1 = new Phrase("P");
+//    std::string mot = "un";
+//    mot = mot + "deu";
+//    std::cout<<mot<<std::endl;
+//    std::ifstream Fichier ("text.txt", std::ios::app);
+//    std::vector<std::string> names;
+//    std::string input;
+//    if(Fichier.is_open()){
+//        std::cout << "oui" <<std::endl;
+//    }
+//    while(Fichier >> input){
+//        names.push_back(input);
+//    }
+//    for(std::string name : names){
+//        std::cout << name << std::endl;
+//    }
+////////////////////////////////
+//    Phrase tv1("marque");
+//    tv1.AjouterMot("lapin");
+//    std::string truc= "la";
+//
+//    tv1.AjouterMot(truc);
+//    truc  = tv1 . GetPhrase();
+
+//    int u = tv1.GetVolume();
+//    std::cout << u << std::endl;
+//    std::string truc;
+//    truc = "encore!";
+//    std::cout << truc<< std::endl;
+// Create a vector containing integers
+
+//    std::cout << "}; \n";

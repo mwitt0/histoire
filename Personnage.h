@@ -13,6 +13,7 @@ public:
     Equipement* arme;
     Equipement* armure;
     std::string nom;
+    int PV;
     int type;
     Personnage(std::string nom,int type,Equipement* arme,Equipement* armure);
     Personnage(const char string[8]);

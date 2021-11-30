@@ -12,3 +12,12 @@ Personnage::Personnage(std::string nom, int type,Equipement* arme,Equipement* ar
 Personnage::Personnage(const char string[8]) {
 
 }
+void Personnage::recevoirDegats(int degats)
+{
+    PV -= degats;
+}
+ 
+void Personnage::infligerDegats(Personnage &cible, int degats) const
+{
+    cible.recevoirDegats(degats);
+}

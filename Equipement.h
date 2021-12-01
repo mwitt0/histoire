@@ -9,6 +9,7 @@
 class Equipement {
 private:
     int type;
+    int PA;
 public:
     Equipement(int i);
 };

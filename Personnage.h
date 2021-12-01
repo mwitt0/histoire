@@ -13,6 +13,7 @@ public:
     Equipement* arme;
     Equipement* armure;
     std::string nom;
+    int PV;
     int type;
     int getPV();
     void setPV(int PV);

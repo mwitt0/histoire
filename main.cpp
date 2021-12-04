@@ -24,12 +24,12 @@ int main() {
 //    Phrase* deu = tv1->extraire(0,2);
 //    deu->__repr__();
 
-    Fichier fh1("text.txt");
+    Fichier fh1("texte/4.txt");
     Phrase* une = fh1.lireFichier();
     une->__repr__();
     Environnement* env = new Environnement("1");
     Equipement* eq1 = new Equipement(1);
-    Personnage* ps1 = new Personnage("non",1, eq1,eq1);
-
+    Personnage* ps1 = new Personnage("non",1, eq1,eq1,1);
+    env->preparerPiece(une);
     return 0;
 }

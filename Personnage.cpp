@@ -16,6 +16,6 @@ Personnage::Personnage(const char string[8]) {
 int Personnage::getPV() {
     return this->PV;
 }
-void Phrase::setPV(int PV) {
+void Personnage::setPV(int PV){
     this->PV = PV;
 }

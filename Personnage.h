@@ -16,8 +16,8 @@ public:
     int PV;
     int type;
     int getPV();
-    void setPV(int PV);
-    Personnage(std::string nom,int type,Equipement* arme,Equipement* armure);
+    void setPV(int);
+    Personnage(std::string nom,int type,Equipement* arme,Equipement* armure,int PV);
     Personnage(const char string[8]);
 };
 

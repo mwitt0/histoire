@@ -14,8 +14,11 @@ private :
     std::vector<std::string> phrase;
     std::string titre;
     int ordre;
+
+    int length = 0;
 public:
     //Méthodes
+    std::vector<int> seekInstruction();
     void SetOrdre(int ordre);
     void AjouterMot(std::string c);
     void __repr__();

@@ -24,6 +24,7 @@ private:
 
 public:
     void reprPersonnage();
+    void preparerPiece(Phrase *);
     Environnement(std::string name);
 };
 

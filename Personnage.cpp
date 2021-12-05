@@ -19,3 +19,12 @@ int Personnage::getPV() {
 void Personnage::setPV(int PV){
     this->PV = PV;
 }
+void Personnage::recevoirDegats(int degats)
+{
+    PV -= degats;
+}
+ 
+void Personnage::infligerDegats(Personnage &cible, int degats) const
+{
+    cible.recevoirDegats(degats);
+}

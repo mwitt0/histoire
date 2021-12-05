@@ -19,3 +19,9 @@ int Personnage::getPV() {
 void Personnage::setPV(int PV){
     this->PV = PV;
 }
+int Personnage::getArgent() {
+    return this->Argent;
+}
+void Personnage::setArgent(int Argent){
+    this->Argent = Argent;
+}

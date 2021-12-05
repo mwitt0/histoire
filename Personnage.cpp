@@ -19,3 +19,15 @@ int Personnage::getPV() {
 void Personnage::setPV(int PV){
     this->PV = PV;
 }
+void Personnage::setArgent(int Argent) {
+    this->Argent = Argent;
+}
+int Personnage::getArgent() {
+    return this->Argent;
+}
+void Personnage::recevoirDegats(int degats) {
+    this->PV -= degats
+}
+void Personnage::infligerDegats(Personnage* cible, int degats) {
+    cible->recevoirDegats(degats);
+}

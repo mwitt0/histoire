@@ -7,6 +7,7 @@
 #include "Environnement.cpp"
 #include "Equipement.cpp"
 #include "Personnage.cpp"
+#include "Action.h"
 int main() {
 
 //    Phrase* tv1 = new Phrase ("marque");

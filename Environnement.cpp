@@ -22,5 +22,4 @@ void Environnement::preparerPiece(Phrase* phrase){
     //Piece->welcome = phrase->extraire(0,inst[0]-1);
     //Piece->instr = phrase;
     //Piece->processInstr();
-
 }
